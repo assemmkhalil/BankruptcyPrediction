@@ -12,7 +12,8 @@ The dataset consists of 62 features, each representing a financial ratio such as
 - net profit / inventory
 - EBITDA / total assets
 - long-term liabilities / equity
-The target column is “Class”, with 0 meaning not bankrupt and 1 meaning bankrupt.
+
+The target column is “Class”, with 0 meaning not bankrupt and 1 meaning bankrupt. <br>
 
 **Original dataset:** Tomczak,Sebastian. (2016). Polish companies bankruptcy data. UCI Machine Learning Repository. https://doi.org/10.24432/C5F600
 

@@ -3,7 +3,6 @@
 ### Overview:
 The ability to predict a company's bankruptcy serves as a crucial early warning system for top management, enabling them to take proactive measures to prevent the company's financial downfall. Additionally, it provides valuable insights to investors by helping them make informed decisions by identifying companies to avoid for investment. Furthermore, for job seekers, it provides guidance by highlighting companies to avoid when seeking stable employment opportunities.
 This project was done as a part of a [Kaggle competition](https://www.kaggle.com/competitions/debi-fintech-bankruptcy-prediction/overview) to address the challenge of predicting company bankruptcy by developing an effective machine learning model for financial risk assessment.
-<br>
 
 ### Data:
 The project was done using a subset of the Polish companies bankruptcy dataset. The data was collected from Emerging Markets Information Service (EMIS), which is a database containing information on emerging markets around the world. The bankrupt companies were analyzed in the period 2000-2012, while the still operating companies were evaluated from 2007 to 2013.
@@ -17,7 +16,6 @@ The dataset consists of 62 features, each representing a financial ratio such as
 The target column is “Class”, with 0 meaning not bankrupt and 1 meaning bankrupt. <br>
 
 **Original dataset:** Tomczak,Sebastian. (2016). Polish companies bankruptcy data. UCI Machine Learning Repository. https://doi.org/10.24432/C5F600
-<br>
 
 ### Methodology:
 1. Data Exploration: Explored the dataset to gain insights into its structure and characteristics, and detect data problems such as nulls, duplicates, outliers, multicollinearity, class imbalances, etc.
@@ -29,7 +27,6 @@ The target column is “Class”, with 0 meaning not bankrupt and 1 meaning bank
 4. Feature Selection: Employed feature selection techniques such as PCA, RFE, Feature Importance with Random Forest, and Feature Permutation to identify the most relevant features for prediction. Feature Importances with Random Forest achieved the highest Recall and AUC-PR score.
 
 5. Hyperparameter Tuning: Fine-tuned the hyperparameters of the selected model using Grid Search and Stratified K-Fold Cross-Validation to optimize its performance.
-<br>
 
 ### Results:
 Champion Model: **LGBM using unfiltered data**
